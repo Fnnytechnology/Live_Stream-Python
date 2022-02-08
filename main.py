@@ -5,7 +5,7 @@ from platform import release
 
 import cv2
 
-capture = cv2.VideoCapture('http://192.168.2.101:8080/video')
+capture = cv2.VideoCapture('Your ip camera ip and port')
 while True:
     val1 , frame = capture.read()
     cv2.imshow('livestram',frame)
